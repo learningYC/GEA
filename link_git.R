@@ -21,4 +21,7 @@ usethis::create_from_github(
   repo_spec = "https://github.com/CUNI-SPRouT/SPROuT-Day3-VersionControl.git",
   destdir = "D:/PHD Charlse Univeristy/SPROuT/GEA/"  )
 
+#check the current position
 here::here()
+
+usethis::use_github()
