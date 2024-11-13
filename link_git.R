@@ -18,10 +18,11 @@ utils::install.packages("renv")
 #utils::install.packages("tidyverse")
 
 usethis::create_from_github(
-  repo_spec = "https://github.com/CUNI-SPRouT/SPROuT-Day3-VersionControl.git",
+  repo_spec = "https://github.com/CUNI-SPRouT/VersionControl-playground.git",
   destdir = "D:/PHD Charlse Univeristy/SPROuT/GEA/"  )
 
 #check the current position
 here::here()
 
+#uodate to github
 usethis::use_github()
