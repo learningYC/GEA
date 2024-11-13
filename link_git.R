@@ -24,4 +24,5 @@ usethis::create_from_github(
 #check the current position
 here::here()
 
+#uodate to github
 usethis::use_github()
